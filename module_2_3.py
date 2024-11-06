@@ -3,7 +3,9 @@ loop = 0
 while loop < len(my_list):
     print(my_list[loop])
     loop = loop + 1
-
+    if my_list[loop] > 0:
+        continue
+    else: break
 
 
 
