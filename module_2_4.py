@@ -5,10 +5,7 @@ for i in numbers[1:]:
     is_prime = True
     for j in numbers[1:i]:
         if i % j == 0:
-            if j == i:
-                is_prime = True
-            else:
-                is_prime = False
+            is_prime = False
         else:
             break
     if is_prime == True:
